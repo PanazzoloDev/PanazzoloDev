@@ -1,6 +1,6 @@
 body {
     min-height: 100vh;
-    min-width: 100vw;
+    min-width: 100%;
     background: linear-gradient(30deg, #151b6d, #8d00d8);
     display: flex;
     flex-wrap: wrap;
