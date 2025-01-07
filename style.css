@@ -1,26 +1,17 @@
 body {
     min-height: 100vh;
-    width: 100vw;
+    min-width: 100vw;
     background: linear-gradient(30deg, #151b6d, #8d00d8);
-    display: grid;
-    grid-template-columns: 60% 30%;
-    grid-auto-rows: auto auto auto;
-    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
     padding: 15px;
     box-sizing: border-box;
     justify-content: center;
-    align-content: start;
-}
-.section-60 {
-    grid-column: 1 / 2; /* Aloca na coluna de 60% */
 }
 
-.section-40 {
-    grid-column: 2 / 3; /* Aloca na coluna de 40% */
-}
 .glass {
-    margin: 10px;
-    height: fit-content;
+    margin: 8px;
+    height: auto;
     background: rgba(255, 255, 255, 0.07);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
@@ -32,6 +23,7 @@ body {
 }
 
 .profile {
+    max-width: 60%;
     display: flex;
     flex-direction: row;
     align-items: start;
@@ -51,12 +43,35 @@ body {
     }
 }
 
-.left-container {
+.skills-icons {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px white solid;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    align-items: flex-start;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.large-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
     padding: 15px;
-    align-items: start;
+    flex-grow: 1;
+}
 
+.small-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    padding: 15px;
+    flex-grow: 1;
 
-    .exp-title {
+    .li-title {
         margin-top: 15px;
 
         li {
@@ -67,25 +82,13 @@ body {
     }
 }
 
-
-
-.right-container {
+.container-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 15px;
-    flex-grow: 1;
-    div {
-        border-top: 1px white solid;
-        padding: 10px;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-
-    ul {
-        border-top: 1px white solid;
-        list-style: inside;
-    }
+    border-top: 1px white solid;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .skill-logo {
@@ -93,9 +96,9 @@ body {
     margin: 5px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1045px) {
     .profile {
-        max-width: 100%;
+        min-width: 95%;
         display: flex;
         flex-direction: row;
         align-items: start;
@@ -106,15 +109,15 @@ body {
         align-self: end;
     }
 
-    .right-container {
-        max-width: 100%;
+    .small-container {
+        min-width: 95%;
         display: flex;
         flex-direction: column;
         align-items: start;
     }
 
-    .left-container {
-        max-width: 100%;
+    .large-container {
+        min-width: 95%;
     }
 
 }
