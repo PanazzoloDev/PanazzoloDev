@@ -1,12 +1,15 @@
 body {
     min-height: 100vh;
-    min-width: 100vw;
-    background: linear-gradient(30deg, #151b6d, #8d00d8);
+/*     background: linear-gradient(30deg, #151b6d, #8d00d8);*/
+    background-color: #46098a;
+    background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     display: flex;
     flex-wrap: wrap;
-    padding: 15px;
+    padding: 10px;
     box-sizing: border-box;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .glass {
@@ -16,10 +19,13 @@ body {
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(6px);
-    overflow: hidden;
     -webkit-backdrop-filter: blur(6px);
     border: 1px solid rgba(255, 255, 255, 0.23);
     box-sizing: border-box;
+    &:hover{
+        background: rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(1px);
+    }
 }
 
 .profile {
@@ -27,6 +33,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: start;
+    overflow: hidden;
 }
 
 .profile-image {
@@ -67,25 +74,28 @@ body {
 .small-container {
     display: flex;
     flex-direction: column;
-    max-width: 30%;
+    max-width: 35%;
     padding: 15px;
     flex-grow: 1;
+}
 
-    .li-title {
-        margin-top: 15px;
+.li-title {
+    margin-top: 15px;
+    ul{
+        margin-bottom: 10px;;
+    }
 
-        li {
-            padding-left: 15px;
-            margin-top: 5px;
-            color: gray;
-        }
+    li {
+        padding-left: 15px;
+        margin-top: 5px;
+        color: rgb(146, 146, 146);
     }
 }
 
 .container-content {
     display: flex;
     flex-direction: row;
-    padding: 15px;
+    padding: 10px;
     border-top: 1px white solid;
     width: 100%;
     box-sizing: border-box;
@@ -96,7 +106,26 @@ body {
     margin: 5px;
 }
 
-@media (max-width: 1045px) {
+.projects-container .project-container:nth-child(even) {
+    div{order: 2;}
+}
+
+
+
+.project-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    img{
+        width: 75%;
+        height: fit-content;
+        object-fit: contain;
+        box-shadow: 8px 8px 3px rgba(0, 0, 0, 0.3);
+    }
+}
+
+@media (max-width: 1024px) {
     .profile {
         min-width: 95%;
         display: flex;
@@ -107,6 +136,57 @@ body {
     .profile-image {
         max-height: 300px;
         align-self: end;
+    }
+
+    .small-container {
+        min-width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .large-container {
+        min-width: 95%;
+    }
+
+    .project-container {
+        align-items: flex-start;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+
+        .li-title {margin-top: 0px;}
+        div{
+            display: flex;
+            justify-content: space-around;
+        }
+        img{width: 100%;}
+    }
+
+    .projects-container .project-container:nth-child(even) {
+        div{order: unset;}
+    }
+}
+
+@media (max-width: 500px) {
+    .profile {
+        min-width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .profile-image {
+        max-height: 300px;
+        align-self: flex-start;
+        order: 1;
     }
 
     .small-container {
