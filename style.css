@@ -154,6 +154,8 @@ body {
         min-width: 95%;
     }
 
+
+
     .project-container {
         align-items: flex-start;
     }
@@ -176,7 +178,7 @@ body {
     }
 
     .projects-container .project-container:nth-child(even) {
-        div{order: unset;}
+        flex-direction: column; 
     }
 }
 
