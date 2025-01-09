@@ -15,23 +15,23 @@
         <div style="display: flex; flex-direction: column; padding: 15px;">
             <h1>Wesley Panazzolo</h1>
             <h4>Software developer | .NET | Web | Desktop</h4>
-
-            <p style="margin: 20px 0px">
+            <br />
+            <p>
                 Entusiasta e apaixonado por tecnologia, automação e análise dados,
                 com experiência no desenvolvimentos de softwares e ferramentas
                 IoT para industria.
             </p>
-
-            <p style="margin: 20px 0px">
+            <br />
+            <p>
                 Extração de dados das mais diversas fontes e criação de indicadores,
                 monitoramento de dados e documentação de processos.
             </p>
-
-            <p style="margin: 20px 0px">
+            <br />
+            <p>
                 Planejamento e controle de produção, definição de processos,
                 pesquisa e desenvolvimento de melhorias para otimização de tempo/recursos.
             </p>
-
+            <br />
             <div class="contacts">
                 <a href="https://www.linkedin.com/in/wpanazzolo/">
                     <img style="height: 30px; margin-right: 10px;" src="./resources/linkedin.png" alt="Linkedin" />
@@ -69,8 +69,8 @@
             <div style="background-color: white; width: 1px; margin-right: 13px;"></div>
             <ul style="list-style:outside;">
                 <li class="li-title">
-                    Supervisor de PCP (Production Planning and Control) <br />
-                    Grupo SR (2023/01 - atualmente) - 12 meses
+                    Supervisor de PCP - 12 meses<br />
+                    Grupo SR (2023/01 - atualmente) 
                     <ul>
                         <li>Gestão de processos.</li>
                         <li>Pesquisa e Desenvolvimento.</li>
@@ -79,8 +79,8 @@
                     </ul>
                 </li>
                 <li class="li-title">
-                    Programador<br />
-                    Grupo Voalle (2022/02 - 2023/01) - 11 meses
+                    Programador - 11 meses<br />
+                    Grupo Voalle (2022/02 - 2023/01)
                     <div style="display: flex;">
                         <ul>
                             <li>C#.Net</li>
@@ -99,8 +99,8 @@
                     </div>
                 </li>
                 <li class="li-title">
-                    Programador de Máquinas<br />
-                    Grupo SR (2020/01 - 2022/02) - 25 meses
+                    Programador de Máquinas - 25 meses<br />
+                    Grupo SR (2020/01 - 2022/02)
                     <ul>
                         <li>Definição de Roteiros.</li>
                         <li>Emissão e Manut. de Ordens de Produção</li>
@@ -109,8 +109,8 @@
                     </ul>
                 </li>
                 <li class="li-title">
-                    Desenhista Projetista<br />
-                    Grupo SR (2018/11 - 2020/01) - 13 meses
+                    Desenhista Projetista - 13 meses<br />
+                    Grupo SR (2018/11 - 2020/01)
                     <ul>
                         <li>Modelagem 3D</li>
                         <li>Fluxo ERP</li>
@@ -119,31 +119,128 @@
                         <li>Automação de tarefas (VBA, ILogic, Macros)</li>
                     </ul>
                 </li>
+                <li class="li-title">
+                    Aux. Almoxarife - 24 meses<br />
+                    Santamate Ind. e Com.(2016/11 - 2018/11)
+                    <ul>
+                        <li>Controle de Estoque</li>
+                        <li>Inventário</li>
+                        <li>Compras</li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </section>
     <section class="large-container glass">
-        <h4>Projects</h4>
-        <div class="container-content">
-            <ul style="width: 100%;">
-                <li>
-                    Sistemas SR
-                    <div style="display: flex; justify-content: center;">
-                        Sistema de controle, rastreio e histórico de ferramentas, EPIs (Equipamentos de Proteção
-                        Individual), e os veículos da frota da empresa.
-                    </div>
-                </li>
-
-                <li>CamFicep</li>
-                <li>ArgoxPrinterAssistant</li>
-                <li>CleanArchMVC</li>
-                <li>Pontualidade</li>
-            </ul>
+        <h4>Some Projects</h4>
+        <div class="container-content projects-container" style="flex-direction: column;">
+            <div class="project-container">
+                <div class="li-title">
+                    <ul>
+                        <li title="Aplicação criada sob demanda, repositório privado." style="margin-left: -15px;">
+                            <h4>Sistemas SR</h4>
+                        </li>
+                        <li title="Entrada, saída e transferências entre os usuários/almoxarifados.">Gerenc. Estoque
+                        </li>
+                        <li title="Localização por meio do responsável atual">Rastreamento</li>
+                        <li title="Registro de movimentações realizadas para cada item/veículo.">Histórico</li>
+                        <li title="Módulo para ferramentas, das quais são consideradas requisitáveis e devolvíveis.">
+                            Ferramentas</li>
+                        <li title="Módulo para EPIs (Equipamentos de Proteção Individual)">EPIs</li>
+                        <li title="Móduto para veiculos da frota, com requisições e devoluções">Frota</li>
+                    </ul>
+                    <ul>
+                        <li style="margin-left: -15px;">
+                            <h4>Tecnologias</h4>
+                        </li>
+                        <li>React</li>
+                        <li>Typescript</li>
+                        <li>C#.Net</li>
+                        <li>EFCore</li>
+                        <li>SQL Server</li>
+                    </ul>
+                </div>
+                <img onmouseover="changeImage(event, './resources/Sistemas SR_2.png')"
+                    onmouseout="changeImage(event, './resources/Sistemas SR.png')"
+                    ontouchstart="changeImage(event, './resources/Sistemas SR_2.png')"
+                    ontouchend="changeImage(event, './resources/Sistemas SR.png')" src="./resources/Sistemas SR.png"
+                    alt="Sistemas SR">
+            </div>
+            <div class="project-container">
+                <div class="li-title">
+                    <ul>
+                        <a href="https://github.com/PanazzoloDev/CamFicep">
+                            <li style="margin-left: -15px;">
+                                <h4>CamFicep</h4>
+                            </li>
+                        </a>
+                        <li title="Integração com o SDK do Autodesk Inventor">Inventor</li>
+                        <li title="Gera e exporta o código que a máquina interpreta">Código CNC</li>
+                        <li title="Integração com o sistema de gestão FoccoERP">Focco ERP</li>
+                        <li title="Modelo de máquina testado e aprovado">Excalibur 12</li>
+                    </ul>
+                    <ul>
+                        <li style="margin-left: -15px;">
+                            <h4>Tecnologias</h4>
+                        </li>
+                        <li>XAML</li>
+                        <li>WPF</li>
+                        <li>C#.Net</li>
+                        <li>EFCore</li>
+                        <li>Oracle SQL</li>
+                    </ul>
+                </div>
+                <img onmouseover="changeImage(event, './resources/CamFicep_2.png')"
+                    onmouseout="changeImage(event, './resources/CamFicep.png')"
+                    ontouchstart="changeImage(event, './resources/CamFicep_2.png')"
+                    ontouchend="changeImage(event, './resources/CamFicep.png')" src="./resources/CamFicep.png"
+                    alt="CamFicep">
+            </div>
+            <div class="project-container">
+                <div class="li-title">
+                    <ul>
+                        <li title="Aplicação criada sob demanda, repositório privado." style="margin-left: -15px;">
+                            <h4>Panazzolo Soluções Energéticas</h4>
+                        </li>
+                        <li title="Cadastro de parâmetros customizados. Ex.: @coord_lat">Cadastro de parâmetros</li>
+                        <li title="Substituição de parâmetros dos templastes cadastrados">Substituição de parâmetros
+                        </li>
+                        <li title="Integração com o SDK e edição dos projetos template do AutoCAD">AutoCAD</li>
+                        <li title="Edição dos templates de documentos Word">Office Word</li>
+                    </ul>
+                    <ul>
+                        <li style="margin-left: -15px;">
+                            <h4>Tecnologias</h4>
+                        </li>
+                        <li>XAML</li>
+                        <li>WPF</li>
+                        <li>C#.Net</li>
+                        <li>EFCore</li>
+                    </ul>
+                </div>
+                <img onmouseover="changeImage(event, './resources/Panazzolo Energias_2.png')"
+                    onmouseout="changeImage(event, './resources/Panazzolo Energias.png')"
+                    ontouchstart="changeImage(event, './resources/Panazzolo Energias_2.png')"
+                    ontouchend="changeImage(event, './resources/Panazzolo Energias.png')"
+                    src="./resources/Panazzolo Energias.png" alt="Panazzolo Soluções Energéticas">
+            </div>
         </div>
     </section>
 </body>
 <footer>
 
 </footer>
+<script>
+    function changeImage(event, path) {
+
+        const element = event.target;
+
+        element.classList.add("hidden");
+        setTimeout(() => {
+            element.src = path;
+            element.classList.remove("hidden");
+        }, 200);
+    }
+</script>
 
 </html>
