@@ -3,7 +3,6 @@ body {
 /*     background: linear-gradient(30deg, #151b6d, #8d00d8);*/
     background-color: #46098a;
     background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
@@ -82,7 +81,7 @@ body {
 .li-title {
     margin-top: 15px;
     ul{
-        margin-bottom: 10px;;
+        margin-bottom: 15px;
     }
 
     li {
@@ -110,18 +109,21 @@ body {
     div{order: 2;}
 }
 
-
-
 .project-container {
     margin-top: 15px;
     display: flex;
     justify-content: space-around;
     align-items: start;
+    flex-grow: 1;
     img{
         width: 75%;
-        height: fit-content;
-        object-fit: contain;
+        max-height: 350px;
+        object-fit: cover;
         box-shadow: 8px 8px 3px rgba(0, 0, 0, 0.3);
+        transition: opacity 0.2s;
+    }
+    img.hidden{
+        opacity: 0;
     }
 }
 
