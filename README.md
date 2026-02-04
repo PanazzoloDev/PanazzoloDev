@@ -38,8 +38,8 @@ Aqui estão alguns dos meus projetos públicos mais representativos, vale lembra
 ## 📊 Estatísticas do GitHub
 
 <!-- GitHub Stats Cards -->
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=PanazzoloDev&show_icons=true&theme=dark)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=PanazzoloDev&layout=compact&theme=dark)
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=PanazzoloDev&show_icons=true&theme=dark)
+![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=PanazzoloDev&layout=compact&theme=dark)
 
 ---
 
