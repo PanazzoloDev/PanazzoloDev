@@ -1,27 +1,52 @@
-# Wesley Panazzolo
+<!-- Typing Animation no topo -->
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=2F80ED&width=650&lines=Entusiasta+de+tecnologia+e+automação;Desenvolvedor+de+software+e+soluções;Aberto+a+colaborações+e+novos+projetos)
 
-Entusiasta de tecnologia, automação e desenvolvimento de soluções.
+---
 
-Sou entusiasta de tecnologia com foco em desenvolvimento de software, automação industrial
-e integração de sistemas. Tenho interesse em criar soluções eficientes que conectem
-processos, dados e tecnologia, sempre buscando clareza, desempenho e boas práticas.
+# 👋 Olá, tudo bem? Espero que sim.
+Sou mais um **entusiasta de tecnologia** com foco em **desenvolvimento de software, automação industrial e integração de sistemas**.  
+Busco construir soluções inteligentes que conectem **processos, dados e tecnologia**, sempre com clareza, boas práticas e desempenho. :contentReference[oaicite:1]{index=1}
 
-💡 **Áreas de interesse**
-- Desenvolvimento de software e APIs
-- Automação e manufatura
-- Sistemas ERP e integração de dados
-- Otimização e rastreabilidade de processos
+---
 
-🛠 **Tecnologias**
-- C#, .NET, SQL
-- Oracle, SQL Server
-- XML, integração de dados
-- Git, CNC, CAM
+## 💼 Tecnologias e Ferramentas
 
-🤝 **Colaboração**
-Gosto de trocar conhecimento, discutir soluções e colaborar em projetos interessantes.
-Se quiser conversar ou colaborar, fique à vontade para entrar em contato.
+🛠 **Linguagens & Frameworks (& Libs)**  
+.NET (C#|VB) · JavaScript · React · PL/SQL · TypesScript
 
-📫 **Contato**
-- LinkedIn: https://linkedin.com/in/...
-- E-mail: ...
+📦 **Bancos de Dados**  
+Oracle · SQL Server · Postgres · MySQL
+
+⚙️ **Outras Ferramentas**  
+Git · CNC/CAM · Autodesk Inventor · FoccoERP · PostMan · SigmaNEST · RabbitMQ · Integração de dados e sistemas
+
+---
+
+## 📂 Projetos em Destaque
+
+Aqui estão alguns dos meus projetos públicos mais representativos, vale lembrar que tenho outros vários, porém por questôes da LGPD não convém tornar público.
+
+🔹 **CleanArchMvc** – Implementação de conceitos de *Clean Architecture* com C#/.NET  
+🔹 **IStorage** – Sistema de controle de estoque com foco em gestão de insumos e pedidos  
+🔹 **organo** – Projeto React do curso da Alura  
+🔹 **CamFicep** – Automatização de programação CNC integrada com Autodesk Inventor
+
+*(e outros repositórios que mostram minha evolução e prática contínua)* :contentReference[oaicite:2]{index=2}
+
+---
+
+## 📊 Estatísticas do GitHub
+
+<!-- GitHub Stats Cards -->
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=PanazzoloDev&show_icons=true&theme=dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=PanazzoloDev&layout=compact&theme=dark)
+
+---
+
+## 🤝 Conecte-se comigo
+
+📫 **Contato**  
+- LinkedIn: https://www.linkedin.com/in/wpanazzolo  
+- E-mail: panazzolo.wesley@gmail.com
+
+Estou sempre aberto a **colaborações**, trocas de conhecimento e oportunidades para criar algo relevante e incrível! 🚀
