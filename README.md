@@ -5,7 +5,7 @@
 
 # 👋 Olá, tudo bem? Espero que sim.
 Sou mais um **entusiasta de tecnologia** com foco em **desenvolvimento de software, automação industrial e integração de sistemas**.  
-Busco construir soluções inteligentes que conectem **processos, dados e tecnologia**, sempre com clareza, boas práticas e desempenho. :contentReference[oaicite:1]{index=1}
+Busco construir soluções inteligentes que conectem **processos, dados e tecnologia**, sempre com clareza, boas práticas e desempenho.
 
 ---
 
